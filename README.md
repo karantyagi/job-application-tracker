@@ -5,3 +5,5 @@ Stats and a searchable database will definitely ease your job.
 <br>
 <br>
 Work in progress. Frontpage will be like this : http://bit.ly/jobs-home
+<br>
+![alt text](https://github.com/KaranTyagi/job-applications-stats/blob/master/demo.gif)
