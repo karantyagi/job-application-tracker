@@ -1,0 +1,154 @@
+
+<!-- https://codepen.io/shvvffle/pen/JRALqG -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Job search statistics</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+   
+  <style class="cp-pen-styles">@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css); 
+
+body {
+	background: #00000;
+}
+
+/*/ start count stats /*/
+
+section#counter-stats {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.stats {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.stats .fa {
+  color: #651fff ; /* set  awesome font icons' color : Goto https://mdbootstrap.com/css/colors/  and pick color as per your wish   */
+  font-size: 65px;
+}
+
+
+/*/ end count stats /*/</style>
+
+</head>
+<body>
+<!-- start count stats -->
+<section id="counter-stats" class="wow fadeInRight" data-wow-duration="1.2s">
+	<div class="container">
+		<h1 style="font-size: 40px"> Application stats</h1>
+	<br><br><br>
+		<div class="row">
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-university" aria-hidden="true"></i>
+				<div class="counting" data-count="50">0</div>
+				<h2 style="font-size: 20px">Jobs applied</h2> <br><br>
+			</div>
+			
+			<div class="col-lg-3 stats">
+				<i class="fa fa-flash" aria-hidden="true"></i>
+				<div class="counting" data-count="30">0</div>
+				<h2 style="font-size: 20px">Rejects</h2><br><br>
+			</div>
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-check" aria-hidden="true"></i>
+				<div class="counting" data-count="40">0</div>
+				<h2 style="font-size: 20px">Calls</h2><br><br>
+			</div>
+			
+			<div class="col-lg-3 stats">
+				<i class="fa fa-coffee" aria-hidden="true"></i>
+				<div class="counting" data-count="45">0</div>
+				<h2 style="font-size: 20px">Career Fairs</h2><br><br>
+			</div>
+
+		</div>
+		
+		<div class="row">
+			<div class="col-lg-3 stats">
+				<i class="fa fa-code" aria-hidden="true"></i>
+				<div class="counting" data-count="27">0</div>
+				<h2 style="font-size: 20px">Coding Tests</h2><br>
+			</div></h5>
+		
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-phone" aria-hidden="true"></i>
+				<div class="counting" data-count="45">0</div>
+				<h2 style="font-size: 20px"> Telephonic interviews</h2><br>
+			</div>
+	
+			<div class="col-lg-3 stats">
+				<i class="fa fa-plane" aria-hidden="true"></i>
+				<div class="counting" data-count="45">0</div>
+				<h2 style="font-size: 20px">Onsite interviews</h2><br>
+			</div>
+	</div>
+	<h1 style="font-size: 40px">Referral stats</h1>
+	<br><br>
+	<div class="row">
+			<div class="col-lg-3 stats">
+				<i class="fa fa-envelope-open" aria-hidden="true"></i>
+				<div class="counting" data-count="2">0</div>
+				<h2 style="font-size: 20px">Referrals used</h2><br><br>
+			</div></h5>
+		
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-envelope" aria-hidden="true"></i>
+				<div class="counting" data-count="8">0</div>
+				<h2 style="font-size: 20px">Referrals Remaining</h2><br><br>
+			</div>
+	</div>
+
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+
+</section>
+
+<!-- end cont stats -->
+<script >// number count for stats, using jQuery animate
+
+$('.counting').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 1800,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+  
+
+});
+//# sourceURL=pen.js
+</script>
+</body></html>
