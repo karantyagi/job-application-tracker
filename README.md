@@ -1,13 +1,13 @@
 # Job applications Stats made easy
 <br>
 
-```sh
+```html
 * Simplifying your job search.
 ```
-```sh
+```html
 * Streamline your job applications, maintain and auto-fill your applications database.
 ```
-```sh
+```html
 * View status of your applications, access statistics for easy analysis of work applications, and much more.
 ```
 
