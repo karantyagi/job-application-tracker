@@ -2,7 +2,9 @@
 <br>
 
 ```sh
-Simplifying your job search. Streamline your job applications, maintain and auto-fill your applications database, view status of your applications, access statistics for easy analysis of work applications, and much more.
+Simplifying your job search.
+Streamline your job applications, maintain and auto-fill your applications database,
+view status of your applications, access statistics for easy analysis of work applications, and much more.
 ```
 While searching for jobs we need to keep track of status of our various applications. <br>
 Stats and a searchable database will definitely ease your job.
