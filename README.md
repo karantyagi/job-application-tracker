@@ -1,6 +1,8 @@
 # Job applications Stats made easy
 <br>
 
+> Web Dev Project
+
 ```html
  Simplifying your job search.
  Streamline your job applications, maintain and auto-fill your applications database,
