@@ -3,7 +3,9 @@
 
 > Web Dev Project
 
-``` Effortlessly manage all your applications, monitor their status, analyze their stats,and much more .... all at one place.
+```
+Effortlessly manage all your applications, monitor their status,
+analyze their stats, and much more, all at one place.
 ```
 
 ```html
