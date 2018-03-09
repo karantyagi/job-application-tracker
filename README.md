@@ -22,6 +22,3 @@ Work in progress. Frontpage will be like this : http://bit.ly/jobs-home
 
 ![alt text](https://github.com/KaranTyagi/job-applications-stats/blob/master/demo.gif)
 
-Contributors:
-* Jhalak Gupta
-* Karan Tyagi
