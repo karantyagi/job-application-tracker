@@ -20,5 +20,5 @@ Stats and a searchable database will definitely ease your job.
 Work in progress. Frontpage will be like this : http://bit.ly/jobs-home
 <br>
 
-![alt text](https://github.com/KaranTyagi/job-applications-stats/blob/master/demo.gif)
+![alt text](https://github.com/karantyagi/job-application-tracker/blob/master/demo/demo.gif)
 
