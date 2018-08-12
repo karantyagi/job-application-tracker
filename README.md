@@ -1,7 +1,7 @@
 # Job applications made easy
 <br>
 
-> Web Dev Project
+> Full stack personal project using MEAN stack
 
 > Effortlessly manage all your applications, monitor their status, <br>
 > analyze their stats, and much more, all at one place.
@@ -22,5 +22,6 @@ Work in progress. Frontpage will be like this : http://bit.ly/jobs-home
 
 ![alt text](https://github.com/karantyagi/job-application-tracker/blob/master/demo/demo.gif)
 
-NodeJS server backend for job applications : [https://github.com/karantyagi/job-applications-server](https://github.com/karantyagi/job-applications-server)
+## NodeJS server backend for job applications
+[https://github.com/karantyagi/job-applications-server](https://github.com/karantyagi/job-applications-server)
 
